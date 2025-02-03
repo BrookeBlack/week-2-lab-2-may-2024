@@ -21,7 +21,7 @@ A simple HTML page about me and my hobby.
 - [x] Add 3 pictures
 - [x] Create about.html
 - [ ] Create 2 lists
-- [ ] Add a tags to link the pages together
+- [x] Add a tags to link the pages together
 - [ ] Review pages for errors (missing closing tags or missing characters like = " or &gt;)
 
 ### Bonus and Extension
