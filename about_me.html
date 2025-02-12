@@ -55,11 +55,48 @@
     }
 
     footer {
-      font-size: medium;
+    background-color: gray;
+    color: aliceblue;
+    max-width: fit-content;
+    padding: 25px;
+    margin: 70px;
+    font-size: medium;
+    border-radius: 10px;
+    border-color: aliceblue;
+    border: dashed;
     }
 
     img {
       border-radius: 50%;
+    }
+
+    h1 {
+      background-color: lightsteelblue;
+      border: solid;
+      border-color: black;
+      border-radius: 10px;
+      max-width: fit-content;
+      padding: 25px;
+      margin: 25px;
+    }
+
+    figcaption {
+      border: dashed;
+      border-color: aliceblue;
+      background-color: lightblue;
+      max-width: fit-content;
+      padding: 8px;
+      margin: 0 25px 50px 25px;
+      display: flex;
+    }
+    .article-two {
+      border: solid;
+      border-color: black;
+      border-radius: 10px;
+      padding: 25px;
+      margin: 25px;
+      background-color: lightsteelblue;
+      max-width: fit-content;
     }
   </style>
 </head>
@@ -68,7 +105,7 @@
   style="background-image: url(https://tse3.mm.bing.net/th?id=OIP.nBYfQUGefzR6hyaVvamGTgHaDt&pid=Api&P=0&h=180); background-blend-mode: normal;">
 
   <header>
-    <nav>
+    <nav style="display: flex; justify-content: space-around;">
       <ul>
         <li><a style="padding: 20px; border-radius: 10px;
   margin: 20px;" href="index.html">Home</a></li>
@@ -84,17 +121,24 @@
   <br>
   <br>
   <br>
-
   <h1>Riding Horses</h1>
   <figure>
     <img alt="Blue roan paint horse and cowgirl rider" width="30%"
       src="https://tse1.mm.bing.net/th?id=OIP.W0BhnNrKiF8YM3h8vi-YRgHaGV&pid=Api&P=0&h=180">
     <figcaption>Western style of riding</figcaption>
   </figure>
-
+  <br>
   <main>
-    <h2>About my favorite hobby</h2>
-    <p>Horse riding has long been my favorite activity, even before I actually knew how! I am a <em>"horse girl"</em> at
+    <h2
+      style="font-weight: bold; border: solid; border-color: black; background-color: rgb(172, 184, 195); border-radius: 10px; padding: 25px; margin: 60px 10px 0 25px; max-width: fit-content;">
+      About my favorite hobby</h2>
+    <p style="  border: solid;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+    border-color: black;
+    padding: 25px;
+    margin-left: 25px;
+    max-width: fit-content;">Horse riding has long been my favorite activity, even before I actually knew how! I am a <em>"horse girl"</em> at
       heart!
       I grew up watching tons of trainers on tv and the rodeo channel! I was totally in awe over the companionship these
       riders had with their horses.
@@ -104,9 +148,9 @@
   </main>
   <br>
   <br>
-  <article>
-    <p> Intrested in horse riding or ownership/husbandry yourself? Here is a breif list of things you would need to get
-      started!</p>
+  <article style="border: solid; border-radius: 10px; border-color: black; background-color: lightsteelblue; padding: 25px; margin: 25px; max-width: fit-content;">
+    <p><strong> Intrested in horse riding or ownership/husbandry yourself? Here is a breif list of things you would need to get
+      started!</strong></p>
     <ul>
       <li>horse trailer</li>
       <li>vehicle to pull your trailer</li>
@@ -124,10 +168,10 @@
       There is lots of reading on the subject, just a "Google" away!</p>
   </article>
   <br>
-  <article>
-    <p> There are multipe western competitive events to sign up for once you and your horse are set up and have an
-      established schooling!
-      Here is a list of my <strong>top</strong> five favorties! </p>
+  <article class="article-two">
+    <p><strong> There are multipe western competitive events to sign up for once you and your horse are set up and have an
+      established schooling!</strong></p>
+    <p>Here is a list of my <strong>top</strong> five favorties! </p>
     <ol>
       <li>barrel racing</li>
       <li>pole bending</li>
@@ -137,11 +181,11 @@
     </ol>
   </article>
   <br>
-  <p>
+  <p style="border: solid; border-color: black; max-width: fit-content; background-color: lightskyblue; padding: 20px; margin: 25px; border-radius: 10px;">
     Want to learn more about how I care for my horses? Check out the "Schedule" link above!
   </p>
   <script src="script.js"></script>
 </body>
-<footer> Created at Codex</footer>
+<footer> Created at Codex by Brooke Blackmon</footer>
 
 </html>
