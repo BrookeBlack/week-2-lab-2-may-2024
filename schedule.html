@@ -14,27 +14,38 @@
         }
 
         header {
-            background-color: white;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 80px;
-            display: flex;
-            align-items: center;
-        }
+      background-color: lightblue;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      max-width: fit-content;
+      justify-content: space-around;
+      margin: auto;
+    }
 
+    a:link {
+      text-decoration: none;
+      background-color: gray;
+      color: aliceblue
+    }
 
-        header {
-            background-color: lightblue;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 80px;
-            display: flex;
-            align-items: center;
-        }
+    a:visited {
+      text-decoration: none;
+      background-color: gray;
+      color: aliceblue
+    }
+
+    a:hover {
+      text-decoration: none;
+      background-color: rgb(20, 230, 209);
+      color: aliceblue
+    }
+
+    a:active {
+      text-decoration: none;
+      background-color: rgb(16, 227, 188);
+      color: aliceblue
+    }
 
         header * {
             display: inline;
@@ -59,12 +70,16 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="about_me.html">About</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
+              <li><a style="padding: 20px; border-radius: 10px;
+        margin: 20px;" href="index.html">Home</a></li>
+              <li><a style="padding: 20px; border-radius: 10px;
+        margin: 20px;" href="gallery.html">Gallery</a></li>
+              <li><a style="padding: 20px; border-radius: 10px;
+        margin: 20px;" href="about_me.html">About</a></li>
+              <li><a style="padding: 20px; border-radius: 10px;
+        margin: 20px;" href="schedule.html">Schedule</a></li>
             </ul>
-        </nav>
+          </nav>
     </header>
     <br>
     <br>
