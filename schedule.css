@@ -32,7 +32,6 @@ header {
     max-width: fit-content;
     justify-content: space-around;
     margin: auto;
-    margin-bottom: 80px;
 }
 
 a:link {
@@ -104,7 +103,7 @@ main {
     margin: 100px;
 }
 
-ul {
+main ul {
     border: solid;
     border-color: black;
     padding: 30px;
@@ -160,4 +159,8 @@ footer {
 
 article {
     margin-left: 25px;
+}
+nav ul {
+    position: relative;
+display: inline-flex;
 }
